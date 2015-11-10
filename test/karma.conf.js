@@ -29,6 +29,12 @@ module.exports = function(config) {
       'bower_components/angular-messages/angular-messages.js',
       'bower_components/angular-resource/angular-resource.js',
       'bower_components/angular-sanitize/angular-sanitize.js',
+      'bower_components/moment/moment.js',
+      'bower_components/jquery-ui/jquery-ui.js',
+      'bower_components/jquery-mousewheel/jquery.mousewheel.js',
+      'bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js',
+      'bower_components/fullcalendar/dist/fullcalendar.js',
+      'bower_components/summernote/dist/summernote.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
