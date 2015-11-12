@@ -1,32 +1,31 @@
-<!-- START X-NAVIGATION -->
-<ul  ng-class="'x-navigation'" >
+<!-- Sidebar Scroll Container -->
+<div id="sidebar-scroll" >
+  <!-- Sidebar Content -->
+  <!-- Adding .sidebar-mini-hide to an element will hide it when the sidebar is in mini mode -->
+  <div class="sidebar-content">
 
-  <li class="xn-logo ">
-    <a class="logo" ui-sref="home"><strong class="logo-strong"></strong></a>
-    <a href="#" class="x-navigation-control"></a>
-  </li>
-
-
-
-  <!-- ========================NAVIGATION PAGES========================== -->
-
-  <li ng-class="'xn-title'">Console Management</li>
-  <li class="xn-openable">
-    <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Prototype</span></a>
-    <ul>
-      <li><a ui-sref="prototypeDailyOrders" >Daily Orders</a></li>
-      <li><a ui-sref="prototypeOrderDetail" >Add Order Detail</a></li>
-      <li><a ui-sref="prototypeAddRetailer">Add Retailers</a></li>
-      <li><a ui-sref="prototypeSystemSettings">Add System Settings</a></li>
-      <li><a ui-sref="installations">Device Installations</a></li>
-    </ul>
-  </li>
-  <li >
-    <a ui-sref="home"><span ng-class="'fa fa-desktop'"></span> <span ng-class="'xn-text'">Dashboard</span></a>
-  </li>
-
-  </li>
-
-
-</ul>
-<!-- END X-NAVIGATION-->
+    <!-- Side Content -->
+    <div class="side-content">
+      <ul class="nav-main">
+        <li>
+          <a class="active" ui-sref="home"><i class="si si-speedometer"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+        </li>
+        <li class="nav-main-heading"><span class="sidebar-mini-hide">Header</span></li>
+        <li>
+          <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-wrench"></i><span class="sidebar-mini-hide">Dropdown</span></a>
+          <ul>
+            <li>
+              <a href="start_backend.html">Link #1</a>
+            </li>
+            <li>
+              <a href="start_backend.html">Link #2</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- END Side Content -->
+  </div>
+  <!-- Sidebar Content -->
+</div>
+<!-- END Sidebar Scroll Container -->

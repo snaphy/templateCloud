@@ -3,7 +3,7 @@
 angular.module('templateAdminApp')
 
 
-  .directive('loadTemplate', [function () {
+  .directive('snaphyLoadTemplate', [function () {
       return {
         restrict: 'A',
         link: function (scope, iElement, iAttrs) {
